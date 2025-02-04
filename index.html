@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="index.css.css">
+<style>
+    h1{
+        border: none;
+        text-align: center;
+    }
+    .red{
+        display: inline-block;
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        transition-duration: 1s;
+    }
+   .red:hover{
+    width: 250px;
+   }
+    .blue{
+        display: inline-block;
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+        transition-duration: 3s;
+    }
+    .blue:hover{
+transform: rotate(360deg);
+   }
+    .green{
+        display: inline-block;
+        background-color: green;
+        width: 200px;
+        height: 200px;
+        transition-duration: 1s;
+    }
+    .green:hover{
+    transform: skew(20deg)
+   }
+</style>
+<body>
+    <h1>
+        hover and displays
+    </h1>
+    <p class="red">Red paragraph:</p>
+    <p class="blue">blue paragraph:</p>
+    <p class="green">Green paragraph:</p>
+</body>
+</html>
